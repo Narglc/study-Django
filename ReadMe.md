@@ -19,13 +19,16 @@ source /usr/local/bin/virtualenvwrapper.sh   	#此处根据系统可能会有所
 `source ~/.zshrc`
 
 与虚拟环境有关的几个重要Command：   
+
 `mkvirtualenv nar_vir_space_name`  		创建某运行环境 	  
 `workon`								查看本机的所有运行环境   
-`workon nar_vir_space_name`				进入某运行环境	  	
+`workon nar_vir_space_name`				进入某运行环境	     	
 `deactivate`							离开该运行环境	  
 
 但无论如何在本机上都无法访问到虚拟中的搭建的网站。  
 后来又尝试在阿里的ECS上搭建，开始也是访问不到。  
 后来看到自强的相应文章评论中反应需要修改../settings.py中的ALLOWED_HOSTS字段为：  
-        `ALLOWED_HOSTS = ['*']`  
+
+`ALLOWED_HOSTS = ['*']`  
+
 晚上修改后使用手机访问正常嘞！！！(仿佛又打开一扇异世界的大门)  
