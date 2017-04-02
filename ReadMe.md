@@ -27,7 +27,7 @@ source /usr/local/bin/virtualenvwrapper.sh   	#此处根据系统可能会有所
 
 但无论如何在本机上都无法访问到虚拟中的搭建的网站。  
 后来又尝试在阿里的ECS上搭建，开始也是访问不到。  
-后来看到自强的相应文章评论中反应需要修改../settings.py中的ALLOWED_HOSTS字段为：  
+后来看到自强的相应文章评论中反应需要修改**../settings.py**中的**ALLOWED_HOSTS**字段为：  
 
 `ALLOWED_HOSTS = ['*']`  
 
