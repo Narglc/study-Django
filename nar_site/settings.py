@@ -26,7 +26,6 @@ SECRET_KEY = '$y-i0opcau8*goa4xavv*5!5a^4xbsss-aoq2sl0bo3(x0jy4u'
 DEBUG = True
 
 #modifide by Narglc  
-#根据自强网上的信息，使用阿里ECS或虚拟机时，【】内需要添加为['*']
 ALLOWED_HOSTS = ['*']      
 
 
